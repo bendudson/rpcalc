@@ -1,0 +1,18 @@
+A simple Reverse-Polish calculator in Haskell
+
+Ben Dudson, 2010
+
+Commands:
+   q     Quit
+   ?     Print this help
+   d     Delete the first number
+   r     Reverse the first two numbers (below single dash)
+   R     Reverse entire stack
+
+Numbers operated on from bottom to top. Those below single
+dashed line will be operated on next.
+
+Values: pi, e
+Single-argument functions: sin, cos, tan, asin, acos, atan, exp, log
+Two-argument functions: +, -, *, /, ^, atan2
+
